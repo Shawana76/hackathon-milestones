@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shawana Musa's Resume</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="resumeDiv">
+        <header>
+            <div class="header-content">
+                <h1 class="white">Shawana Musa</h1>
+                <p class="white">Frontend Developer</p>
+            </div>
+            <img src="myprofile.PNG" alt="Shawana Musa" class="profile-img"/>
+        </header>
+
+        <div class="content">
+            <aside>
+                <section class="contact">
+                    <h2>Contact</h2>
+                    <p><strong>Phone</strong></p>
+                    <p>03123456789</p>
+                    <br>
+                    <p><strong>Email</strong></p>
+                    <p>Shawana.awan76@gmail.com</p>
+                    <br>
+                    <p><strong>Address</strong></p>
+                    <p>Clifton Block 7 Karachi</p>
+                </section>
+
+                <section class="education">
+                    <h2>Education</h2>
+                    <p>2022-present</p>
+                    <p><strong>Bachelor of Science in Computer Science</strong></p>
+                    <p>Virtual University Of Pakistan</p>
+                    <br>
+                    <p>2024-present</p>
+                    <p><strong>Web 3.0 & Metaverse program</strong></p>
+                    <p>GIAIC</p>
+                </section>
+
+                <section class="skill">
+                    <h2>Expertise</h2>
+                    <ul>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>Typescript</li>
+                        <li>React.js</li>
+                        <li>Node.js</li>
+                        <li>Next.js</li>
+                    </ul>
+                </section>
+
+                <section class="language">
+                    <h2>Languages</h2>
+                    <p>English</p>
+                    <p>Urdu</p>
+                </section>
+            </aside>
+
+            <main class="main-content">
+                <section id="experience" class="experience">
+                    <h2>Experience</h2>
+                    <div class="experience-items">
+                        <p>2024-Present</p>
+                        <p><strong>Hubpay | Karachi</strong></p>
+                        <p>Customer Experience Associate</p>
+                    </div>
+
+                    <div class="experience-items">
+                        <p>2022-2024</p>
+                        <p><strong>Foundation Public School</strong></p>
+                        <p>As a Computer Teacher</p>
+                    </div>
+
+                    <div class="experience-items">
+                        <p>2020-2022</p>
+                        <p><strong>Oxford English Grammar School</strong></p>
+                        <p>As a Mathematics Teacher</p>
+                    </div>
+                </section>
+
+                <section id="ref" class="Reference">
+                    <h2>Reference</h2>
+                    <p>Available upon request</p>
+                </section>
+            </main>
+        </div>
+    </div>
+
+    <div class="btnDiv">
+        <button class="btn" onclick="showSection('contact')">Contact</button>
+        <button class="btn" onclick="showSection('education')">Education</button>
+        <button class="btn" onclick="showSection('expertise')">Expertise</button>
+        <button class="btn" onclick="showSection('language')">Language</button>
+        <button id="exp_btn" class="btn" onclick="showSection('experience')">Experience</button>
+        <button id="ref_btn" class="btn" onclick="showSection('ref')">Reference</button>
+        <button class="print btn" onclick="window.print()">Print</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
